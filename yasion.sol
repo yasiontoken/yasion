@@ -329,11 +329,11 @@ contract MintableToken is StandardToken, Ownable {
 
 contract Yasion is StandardToken, BurnableToken, MintableToken {
     // Constants
-    string  public constant name = "YASION";
-    string  public constant symbol = "YASION";
+    string  public constant name = "Yasion";
+    string  public constant symbol = "YA";
     uint8   public constant decimals = 18;
     uint256 public constant INITIAL_SUPPLY = 100000000 * (10 ** uint256(decimals));
-    address constant holder = 0x62F623AB6c5Dfe78d959205c4B6a72C9228D3aec;
+    address constant holder = 0xb002247648A4193A23AbB414b2437E34812114a2;
 
     constructor() public {
         totalSupply_ = INITIAL_SUPPLY;
